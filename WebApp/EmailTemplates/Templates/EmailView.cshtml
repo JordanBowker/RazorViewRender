@@ -1,0 +1,19 @@
+﻿@using RazorViewRender.WebApp.EmailTemplates.Models
+@model RazorViewRender.WebApp.EmailTemplates.Models.EmailModel
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <title>Welcome</title>
+</head>
+<body>
+  <p>
+    Hi @Model.Name,
+  </p>
+  <p>
+    <img src="@Model.ImageSource" />
+  </p>
+</body>
+</html>
